@@ -1,6 +1,6 @@
 # ftggames - Backend for the ftggames website
 
-(ftggames)[https://ftg-studio.com/]
+[ftggames](https://ftg-studio.com/)
 
 ## License
 [![GNU AGPLv3 Image](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.html)  
