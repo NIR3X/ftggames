@@ -2,8 +2,8 @@ github.com/NIR3X/concurrentcache v0.0.0-20240127100201-01ef8bd37490 h1:UmYAtNRVP
 github.com/NIR3X/concurrentcache v0.0.0-20240127100201-01ef8bd37490/go.mod h1:RCo9kFNRKTA6QKOpFqTDfd5HlINXCHXMs/TDKV0dGDU=
 github.com/NIR3X/filecache v0.0.0-20240131103214-e30fe9797a92 h1:6qMMLjkC9nqqxUM9Ym2OWs7A12xo1StXOL02YwqR50c=
 github.com/NIR3X/filecache v0.0.0-20240131103214-e30fe9797a92/go.mod h1:/wsBFdks0A8QB+QZsUs1OUSxOq4cTQEfcNPXlKRev3E=
-github.com/NIR3X/filewatcher v0.0.0-20240131103508-4b08de24a4de h1:WfK4WChUIK/lob36RlKpSoha2ngzgqvt/jv7ozJj4l0=
-github.com/NIR3X/filewatcher v0.0.0-20240131103508-4b08de24a4de/go.mod h1:zILtKc9vQVPmUQ5M9neiH3DtDocoMbKtK85RKYF+dbA=
+github.com/NIR3X/filewatcher v0.0.0-20240201072627-23716f1411d2 h1:cOIlGYPb0CfEbwRVx4rNaP5RfxKTlrMz9w8IJGONXFk=
+github.com/NIR3X/filewatcher v0.0.0-20240201072627-23716f1411d2/go.mod h1:zILtKc9vQVPmUQ5M9neiH3DtDocoMbKtK85RKYF+dbA=
 github.com/NIR3X/httpcontentwriter v0.0.0-20240201043915-a434bbabf709 h1:AOifs9nV+YPkgarJM/ACOJR6sxzTqwot30JB7BdUiLg=
 github.com/NIR3X/httpcontentwriter v0.0.0-20240201043915-a434bbabf709/go.mod h1:51xCXY0YTrlZqbMSxaJNrAD2EpoPxxTbqbHJsXb3zmc=
 github.com/NIR3X/logger v0.0.0-20240120165218-7194e44c0cf1 h1:w0OMYzFSRcdryXU6vgf0aIZ2ZTLJFNvml2yrJoxJdEs=

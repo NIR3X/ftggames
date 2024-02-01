@@ -25,7 +25,7 @@ func main() {
 	tmplColl := tmplreload.NewTmplColl(60, -1)
 	// we can close it because we manually manage the removal of stale template files
 	tmplColl.Close()
-	fileWatcher := filewatcher.NewFileWatcher(consts.FileWatcherUpdateInterval, func(path string, isDir bool) { // create
+	fileWatcher := filewatcher.NewFileWatcher(consts.FileWatcherUpdateInterval, func(path string, isDir bool, failed func()) { // create
 		if isDir {
 			return
 		}
@@ -33,6 +33,7 @@ func main() {
 		case ".gohtml":
 			err := tmplColl.ParseFiles(path)
 			if err != nil {
+				failed()
 				logger.Eprintln(err)
 			}
 		case ".xml":
@@ -44,6 +45,7 @@ func main() {
 		default:
 			err := fileCache.Update(path)
 			if err != nil {
+				failed()
 				logger.Eprintln(err)
 			}
 		}
@@ -63,7 +65,7 @@ func main() {
 		default:
 			fileCache.Delete(path)
 		}
-	}, func(path string, isDir bool) { // modify
+	}, func(path string, isDir bool, failed func()) { // modify
 		if isDir {
 			return
 		}
@@ -71,6 +73,7 @@ func main() {
 		case ".gohtml":
 			err := tmplColl.ReloadFiles(path)
 			if err != nil {
+				failed()
 				logger.Eprintln(err)
 			}
 		case ".xml":
@@ -82,6 +85,7 @@ func main() {
 		default:
 			err := fileCache.Update(path)
 			if err != nil {
+				failed()
 				logger.Eprintln(err)
 			}
 		}
