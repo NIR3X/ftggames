@@ -1,0 +1,14 @@
+github.com/NIR3X/concurrentcache v0.0.0-20240127100201-01ef8bd37490 h1:UmYAtNRVPd4v1HuIiasVPnjWn8t+CjrBtrY+F+Skyvg=
+github.com/NIR3X/concurrentcache v0.0.0-20240127100201-01ef8bd37490/go.mod h1:RCo9kFNRKTA6QKOpFqTDfd5HlINXCHXMs/TDKV0dGDU=
+github.com/NIR3X/filecache v0.0.0-20240131103214-e30fe9797a92 h1:6qMMLjkC9nqqxUM9Ym2OWs7A12xo1StXOL02YwqR50c=
+github.com/NIR3X/filecache v0.0.0-20240131103214-e30fe9797a92/go.mod h1:/wsBFdks0A8QB+QZsUs1OUSxOq4cTQEfcNPXlKRev3E=
+github.com/NIR3X/filewatcher v0.0.0-20240131103508-4b08de24a4de h1:WfK4WChUIK/lob36RlKpSoha2ngzgqvt/jv7ozJj4l0=
+github.com/NIR3X/filewatcher v0.0.0-20240131103508-4b08de24a4de/go.mod h1:zILtKc9vQVPmUQ5M9neiH3DtDocoMbKtK85RKYF+dbA=
+github.com/NIR3X/httpcontentwriter v0.0.0-20240201043915-a434bbabf709 h1:AOifs9nV+YPkgarJM/ACOJR6sxzTqwot30JB7BdUiLg=
+github.com/NIR3X/httpcontentwriter v0.0.0-20240201043915-a434bbabf709/go.mod h1:51xCXY0YTrlZqbMSxaJNrAD2EpoPxxTbqbHJsXb3zmc=
+github.com/NIR3X/logger v0.0.0-20240120165218-7194e44c0cf1 h1:w0OMYzFSRcdryXU6vgf0aIZ2ZTLJFNvml2yrJoxJdEs=
+github.com/NIR3X/logger v0.0.0-20240120165218-7194e44c0cf1/go.mod h1:bpv6Qg1IELrPDGT3ojDH9oPiMPRrY5yjumwHG/S/GrU=
+github.com/NIR3X/multisender v0.0.0-20240131095852-33f00745660b h1:0gnCaQHokUi/g4GPQNmdNxoKQ6n+WT9FYTSpJMaLooU=
+github.com/NIR3X/multisender v0.0.0-20240131095852-33f00745660b/go.mod h1:3WwdnoMb+RXIS93WsvFfvlr+e/RayKqVPjjWZ1+cOBk=
+github.com/NIR3X/tmplreload v0.0.0-20240131051204-9bb6f883b777 h1:De0e4F4OR9DFW+H5SRSpqU/QkTUt+t2nhy//1nINssY=
+github.com/NIR3X/tmplreload v0.0.0-20240131051204-9bb6f883b777/go.mod h1:VMf5GEPeB3y0HUoXPcaomASY3be47OebnutkYmTb+i8=
