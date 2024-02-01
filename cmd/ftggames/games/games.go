@@ -12,10 +12,6 @@ import (
 	"github.com/NIR3X/tmplreload"
 )
 
-type Games struct {
-	Games string
-}
-
 type Game struct {
 	Name        string
 	Description string
@@ -64,7 +60,11 @@ func (g *GameColl) Remove(gameXml string) {
 	g.mtx.Unlock()
 }
 
-func (g *GameColl) GetGamesTmplData(gameTmpl tmplreload.CollTmpl) *Games {
+type GamesTmplData struct {
+	Games string
+}
+
+func (g *GameColl) GetGamesTmplData(gameTmpl tmplreload.CollTmpl) *GamesTmplData {
 	g.mtx.RLock()
 	defer g.mtx.RUnlock()
 
@@ -75,7 +75,7 @@ func (g *GameColl) GetGamesTmplData(gameTmpl tmplreload.CollTmpl) *Games {
 			logger.Eprintln(err)
 		}
 	}
-	return &Games{
+	return &GamesTmplData{
 		Games: games.String(),
 	}
 }
