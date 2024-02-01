@@ -21,7 +21,6 @@ type Game struct {
 	Description string
 	Preview     string
 	PlayPath    string
-	PlayText    string
 }
 
 type GameColl struct {
